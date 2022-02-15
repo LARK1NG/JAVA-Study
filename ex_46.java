@@ -1,6 +1,4 @@
 class Car {
-    private int currentSpeed;
-    private int accelerationTime;
 
     public void accelerate(int speed, int second) {
         System.out.println(second + "초간 속도를 시속 " + speed + "(으)로 가속함!!");
