@@ -1,4 +1,4 @@
-public class ex_7 {
+public class ex_28 {
     public static void main(String[] args) {
         int i = 0;
 

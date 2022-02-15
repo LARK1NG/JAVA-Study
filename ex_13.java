@@ -1,13 +1,8 @@
 public class ex_13 {
     public static void main(String[] args) {
-        allLoop :
-        for (int i = 2; i < 10; i++) {
-            for (int j = 2; j < 10; j++) {
-                if (i == 5) {
-                    break allLoop;
-                }
-                System.out.println(i + " * " + j + " = " + (i * j));
-            }
-        }
-    }    
+        //int num3 = 9876543210L;     // Type mismatch
+        long num4 = 9876543210L;    // OK
+
+        System.out.println(num4);
+   }
 }

@@ -1,11 +1,10 @@
 public class ex_11 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
-            if (i % 5 == 0 || i % 7 == 0) {
-                System.out.println(i);
-            } else {
-                continue;
-            }
-        }
+        double num1 = 10;
+        // int num2 = 3.14;
+        double num3 = 7.0f + 3.14;
+
+        System.out.println(num1);
+        System.out.println(num3);
     }
 }

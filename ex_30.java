@@ -1,4 +1,4 @@
-public class ex_9 {
+public class ex_30 {
     public static void main(String[] args) {
         int i;
         for (i = 0; i < 5; i++) {

@@ -1,12 +1,9 @@
 public class ex_10 {
     public static void main(String[] args) {
-		for (int i = 0; i < 3; i++) {
-			System.out.println("for 문이 " + (i + 1) + "번째 반복 실행중입니다.");
-		}
-		System.out.println();   // 줄바꿈용.
-		
-		for (int i = 0; i < 3; i++) {
-			System.out.println("for 문이 " + (i + 1) + "번째 반복 실행중입니다.");
-		}
-	}
+        float num3 = 1.23456789f;
+        double num4 = 1.23456789;
+
+        System.out.println("float형 변수 num3 :" + num3);
+        System.out.println("double형 변수 num4 :" + num4);
+    }
 }

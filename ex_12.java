@@ -1,14 +1,11 @@
 public class ex_12 {
     public static void main(String[] args) {
-        int num = 1, sum = 0;
+        byte num1 = 100;        // OK
+        //byte num2 = 200;        // Type mismatch
+        //int num3 = 9876543210;  // Out of range
+        //long num4 = 9876543210; // Out of range
+        //float num5 = 3.14;      // Type mismatch
 
-        while (true) {  // 무한 루프
-            sum += num;
-            if (num == 100) {
-                break;
-            }
-            num++;
-        }
-        System.out.println(sum);
+        System.out.println(num1);
     }
 }

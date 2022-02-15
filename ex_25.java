@@ -1,4 +1,4 @@
-public class ex_4 {
+public class ex_25 {
     public static void main(String[] args) {
         char ch = 'J';
 

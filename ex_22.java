@@ -1,4 +1,4 @@
-public class ex_1 {
+public class ex_22 {
 
     public static void main(String[] args) {
         int num1 = 5, num2 = 7;
